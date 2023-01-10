@@ -1,8 +1,8 @@
 
 #version 330 core
 #define FOV 1.0
-#define SAMPLES 2
-#define MAX_BOUNCES 2
+#define SAMPLES 50
+#define MAX_BOUNCES 7
 
 out vec4 FragColor;
 in vec4 gl_FragCoord;
